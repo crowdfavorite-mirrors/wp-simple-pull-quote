@@ -3,7 +3,7 @@ Contributors: llamaman, themightymo
 Donate link: http://themightymo.com/donate
 Tags: pull quote,quotes, quotation
 Requires at least: 2.5
-Tested up to: 3.8.1
+Tested up to: 4.4.2
 Stable tag: trunk
 
 The Simple Pull Quote WordPress Plugin provides an easy way for you to insert pull quotes into your posts and pages.  
@@ -12,6 +12,10 @@ The Simple Pull Quote WordPress Plugin provides an easy way for you to insert pu
 
 Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pull quotes into your posts and pages.  It adds an easy-to-use "Pullquote" button to both the HTML and TinyMCE editors. 
 
+See the plugin in action as well as how to use it:
+http://youtu.be/JGudI9gr9iE
+
+[youtube http://www.youtube.com/watch?v= JGudI9gr9iE]
 
 == Installation ==
 
@@ -19,6 +23,9 @@ Simple Pull Quote Wordpress Plugin provides an easy way for you to insert pull q
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Frequently Asked Questions ==
+Q: How do I make the quote appear on the left side?  
+A: After you create your pull quote, add “class=“left” to it like this: [pullquote class="left”]TEXT HERE[/pullquote]
+
 Q: What if I am using a visual editor besides TinyMCE?
 A: You will need to manually add the shortcode [pullquote]YOUR TEXT HERE[/pullquote]
 
@@ -26,7 +33,8 @@ Q: Is there a maximum number of pull quotes I can have on a single blog post or 
 A: No.  You can have as many pull quotes as you would like.
 
 Q: How do I change the colors and background image on the pullquotes?
-A: Override the default "simplePullQuote" class in your theme's CSS file.
+A: Override the default "simplePullQuote" class in your theme's CSS file.  Here is a “How To” video about this: http://youtu.be/qvg2BFnN0pQ
+[youtube http://www.youtube.com/watch?v=qvg2BFnN0pQ]
 
 Q: Where is the "Pullquote" button in the HTML editor?
 A: I don't know.  It disappeared with the most recent version of WordPress, and I am working on fixing it.
@@ -55,6 +63,8 @@ Simply select the text that you want to use as a pull quote and click the "Pullq
 Version 1.0 of Simple Pull Quote is backwards compatible with previous versions.  Upgrade freely!
 
 == Changelog == 
+= 1.4 = 
+Maintenance: Added icons for new plugin search ui
 
 = 1.4 =
 * Cleaned up readme.txt’s changelog
